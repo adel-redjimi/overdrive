@@ -1,0 +1,233 @@
+[[package]]
+category = "main"
+description = "Abseil Python Common Libraries, see https://github.com/abseil/abseil-py."
+name = "absl-py"
+optional = false
+python-versions = "*"
+version = "0.7.1"
+
+[package.dependencies]
+six = "*"
+
+[[package]]
+category = "main"
+description = "Read/rewrite/write Python ASTs"
+name = "astor"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+version = "0.8.0"
+
+[[package]]
+category = "main"
+description = "Python AST that abstracts the underlying Python version"
+name = "gast"
+optional = false
+python-versions = "*"
+version = "0.2.2"
+
+[[package]]
+category = "main"
+description = "pasta is an AST-based Python refactoring library"
+name = "google-pasta"
+optional = false
+python-versions = "*"
+version = "0.1.7"
+
+[[package]]
+category = "main"
+description = "HTTP/2-based RPC framework"
+name = "grpcio"
+optional = false
+python-versions = "*"
+version = "1.21.1"
+
+[package.dependencies]
+six = ">=1.5.2"
+
+[[package]]
+category = "main"
+description = "Read and write HDF5 files from Python"
+name = "h5py"
+optional = false
+python-versions = "*"
+version = "2.9.0"
+
+[package.dependencies]
+numpy = ">=1.7"
+six = "*"
+
+[[package]]
+category = "main"
+description = "Reference implementations of popular deep learning models"
+name = "keras-applications"
+optional = false
+python-versions = "*"
+version = "1.0.8"
+
+[package.dependencies]
+h5py = "*"
+numpy = ">=1.9.1"
+
+[[package]]
+category = "main"
+description = "Easy data preprocessing and data augmentation for deep learning models"
+name = "keras-preprocessing"
+optional = false
+python-versions = "*"
+version = "1.1.0"
+
+[package.dependencies]
+numpy = ">=1.9.1"
+six = ">=1.9.0"
+
+[[package]]
+category = "main"
+description = "Python implementation of Markdown."
+name = "markdown"
+optional = false
+python-versions = ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*"
+version = "3.1.1"
+
+[package.dependencies]
+setuptools = ">=36"
+
+[[package]]
+category = "main"
+description = "NumPy is the fundamental package for array computing with Python."
+name = "numpy"
+optional = false
+python-versions = ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*"
+version = "1.16.4"
+
+[[package]]
+category = "main"
+description = "Protocol Buffers"
+name = "protobuf"
+optional = false
+python-versions = "*"
+version = "3.8.0"
+
+[package.dependencies]
+setuptools = "*"
+six = ">=1.9"
+
+[[package]]
+category = "main"
+description = "Python 2 and 3 compatibility utilities"
+name = "six"
+optional = false
+python-versions = ">=2.6, !=3.0.*, !=3.1.*"
+version = "1.12.0"
+
+[[package]]
+category = "main"
+description = "TensorBoard lets you watch Tensors Flow"
+name = "tb-nightly"
+optional = false
+python-versions = ">= 2.7, != 3.0.*, != 3.1.*"
+version = "1.14.0a20190301"
+
+[package.dependencies]
+absl-py = ">=0.4"
+grpcio = ">=1.6.3"
+markdown = ">=2.6.8"
+numpy = ">=1.12.0"
+protobuf = ">=3.6.0"
+six = ">=1.10.0"
+werkzeug = ">=0.11.15"
+
+[package.dependencies.wheel]
+python = ">=3"
+version = ">=0.26"
+
+[[package]]
+category = "main"
+description = "TensorFlow is an open source machine learning framework for everyone."
+name = "tensorflow"
+optional = false
+python-versions = "*"
+version = "2.0.0a0"
+
+[package.dependencies]
+absl-py = ">=0.7.0"
+astor = ">=0.6.0"
+gast = ">=0.2.0"
+google-pasta = ">=0.1.2"
+grpcio = ">=1.8.6"
+keras-applications = ">=1.0.6"
+keras-preprocessing = ">=1.0.5"
+numpy = ">=1.14.5,<2.0"
+protobuf = ">=3.6.1"
+six = ">=1.10.0"
+tb-nightly = ">=1.14.0a20190301,<1.14.0a20190302"
+termcolor = ">=1.1.0"
+tf-estimator-nightly = ">=1.14.0.dev2019030115,<1.14.0.dev2019030116"
+wheel = ">=0.26"
+
+[[package]]
+category = "main"
+description = "TensorFlow Addons"
+name = "tensorflow-addons"
+optional = false
+python-versions = "*"
+version = "0.3.1"
+
+[package.dependencies]
+six = ">=1.10.0"
+
+[[package]]
+category = "main"
+description = "ANSII Color formatting for output in terminal."
+name = "termcolor"
+optional = false
+python-versions = "*"
+version = "1.1.0"
+
+[[package]]
+category = "main"
+description = "TensorFlow Estimator."
+name = "tf-estimator-nightly"
+optional = false
+python-versions = "*"
+version = "1.14.0.dev2019030115"
+
+[[package]]
+category = "main"
+description = "The comprehensive WSGI web application library."
+name = "werkzeug"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+version = "0.15.4"
+
+[[package]]
+category = "main"
+description = "A built-package format for Python."
+name = "wheel"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+version = "0.33.4"
+
+[metadata]
+content-hash = "1f91097b432b755040e23181fa7c3ed87bdcbc0b8744d18da57c28fe2eb1d2d0"
+python-versions = "^3.5|^3.6"
+
+[metadata.hashes]
+absl-py = ["b943d1c567743ed0455878fcd60bc28ac9fae38d129d1ccfad58079da00b8951"]
+astor = ["0e41295809baf43ae8303350e031aff81ae52189b6f881f36d623fa8b2f1960e", "37a6eed8b371f1228db08234ed7f6cfdc7817a3ed3824797e20cbb11dc2a7862"]
+gast = ["fe939df4583692f0512161ec1c880e0a10e71e6a232da045ab8edd3756fbadf0"]
+google-pasta = ["40b4f55ba7b44823eac96d055000572c84ce48cacb3e91c100869844064b2d07", "79d1ce28b381d68e98ef7707d19909adb58912f8dae8734402454424fc76b8fe", "7ca8afc4cfeebf4a079cdf586333d5447cecd19a997475136138fc83c3351bc4"]
+grpcio = ["0232add03144dd3cf9b660e2718244cb8e175370dca4d3855cb4e489a7811b53", "0f20e6dcb1b8662cdca033bb97c0a8116a5343e3ebc7f71c5fe7f89039978350", "10b07a623d33d4966f45c85d410bc6a79c5ac6341f06c3beda6c22be12cbfe07", "10c0476d5a52d21f402fc073745dc43b87cc8e080a1f49bbff4e1059019310fb", "289dae0b35c59d191c524e976dd0a6f8c995d2062e72621eb866ad0f4472a635", "2be726f16142d358a0df1e81d583d6820ee561a7856a79cca2fbe49989308be7", "4338d2a81f5b4ca022e085040b3cfce19419a5ce44aa7e6810ac1df05365bed7", "4c535b46f20e66bee3097583231977e721acdfcb1671d1490c99b7be8902ce18", "557154aef70a0e979700cc9528bc8b606b668084a29a0d57dbc4b06b078a2f1c", "5bfdd7e6647498f979dc46583723c852d97b25afe995d55aa1c76a5f9816bc1f", "87d8943ae7aa6ca5bbad732867d7f17d2550e4966a0c15b52088e8b579422e47", "89d8719d8de4d137678f7caa979e1b0a6fd4026f8096ceef8c2d164bbabefaf2", "9c3f4af989ce860710ac1864dc2e867dd87e6cee51a2368df1b253596868e52f", "9da52c3c728883aee429bb7c315049f50b2139f680cd86bb1165418e4f93a982", "9e9736659987beab42d18525ed10d21f80a1ba8389eac03425fbfd5684e6bbf0", "9ebcbb1a054cab362d29d3be571d43d6b9b23302d9fc4b43e5327000da1680a9", "a93e08636623e24c939851e2e0c0140b14f524b2980c9cdc4ea52b70a871c7e0", "ac322d86d1a079e0a118d544443ee16f320af0062c191b4754c0c6ec2fc79310", "b1fb101459868f52df6b61e7bb13375e50badf17a160e39fe1d51ae19e53f461", "b39aac96cceac624a23d540473835086a3ffa77c91030189988c073488434493", "b65507bc273c6dbf539175a786a344cc0ac78d50e5584f72c6599733f8a3301f", "be5bb6e47417e537c884a2e2ff2e1a8b2c064a998fcfdfcc67528d4e63e7ebaf", "c92de6a28a909c4f460dc1bbbcb50d676cf0b1f40224b222761f73fdd851b522", "c9f5962eb7fa7607b20eb0e4f59ed35829bd600fc0eacb626a6db83229a3e445", "d00bdf9c546ed6e649f785c55b05288e8b2dbb6bf2eb74b6c579fa0d591d35bd", "da804b1dd8293bd9d61b1e6ea989c887ba042a808a4fbdd80001cfa059aafed2", "ead6c5aa3e807345913649c3be395aaca2bbb2d225f18b8f31f37eab225508f6", "eb4d81550ce6f826af4ec6e8d98be347fe96291d718bf115c3f254621ae8d98d", "ef6a18ec8fd32ec81748fe720544ea2fb2d2dc50fd6d06739d5e2eb8f0626a1c", "fad42835656e0b6d3b7ffc900598e776722e30f43b7234a48f2576ca30f31a47", "fb98dbfee0d963b49ae5754554028cf62e6bd695f22de16d242ba9d2f0b7339b", "fb9cd9bb8d26dc17c2dd715a46bca3a879ec8283879b164e85863110dc6e3b2a"]
+h5py = ["05750b91640273c69989c657eaac34b091abdd75efc8c4824c82aaf898a2da0a", "082a27208aa3a2286e7272e998e7e225b2a7d4b7821bd840aebf96d50977abbb", "08e2e8297195f9e813e894b6c63f79372582787795bba2014a2db6a2de95f713", "0dd2adeb2e9de5081eb8dcec88874e7fd35dae9a21557be3a55a3c7d491842a4", "0f94de7a10562b991967a66bbe6dda9808e18088676834c0a4dcec3fdd3bcc6f", "106e42e2e01e486a3d32eeb9ba0e3a7f65c12fa8998d63625fa41fb8bdc44cdb", "1606c66015f04719c41a9863c156fc0e6b992150de21c067444bcb82e7d75579", "1854c4beff9961e477e133143c5e5e355dac0b3ebf19c52cf7cc1b1ef757703c", "1e9fb6f1746500ea91a00193ce2361803c70c6b13f10aae9a33ad7b5bd28e800", "2cca17e80ddb151894333377675db90cd0279fa454776e0a4f74308376afd050", "30e365e8408759db3778c361f1e4e0fe8e98a875185ae46c795a85e9bafb9cdf", "3206bac900e16eda81687d787086f4ffd4f3854980d798e191a9868a6510c3ae", "3c23d72058647cee19b30452acc7895621e2de0a0bd5b8a1e34204b9ea9ed43c", "407b5f911a83daa285bbf1ef78a9909ee5957f257d3524b8606be37e8643c5f0", "4162953714a9212d373ac953c10e3329f1e830d3c7473f2a2e4f25dd6241eef0", "5fc7aba72a51b2c80605eba1c50dbf84224dcd206279d30a75c154e5652e1fe4", "713ac19307e11de4d9833af0c4bd6778bde0a3d967cafd2f0f347223711c1e31", "71b946d80ef3c3f12db157d7778b1fe74a517ca85e94809358b15580983c2ce2", "8cc4aed71e20d87e0a6f02094d718a95252f11f8ed143bc112d22167f08d4040", "9d41ca62daf36d6b6515ab8765e4c8c4388ee18e2a665701fef2b41563821002", "a744e13b000f234cd5a5b2a1f95816b819027c57f385da54ad2b7da1adace2f3", "b087ee01396c4b34e9dc41e3a6a0442158206d383c19c7d0396d52067b17c1cb", "b0f03af381d33306ce67d18275b61acb4ca111ced645381387a02c8a5ee1b796", "b9e4b8dfd587365bdd719ae178fa1b6c1231f81280b1375eef8626dfd8761bf3", "c5dd4ec75985b99166c045909e10f0534704d102848b1d9f0992720e908928e7", "d2b82f23cd862a9d05108fe99967e9edfa95c136f532a71cb3d28dc252771f50", "e58a25764472af07b7e1c4b10b0179c8ea726446c7141076286e41891bf3a563", "f3b49107fbfc77333fc2b1ef4d5de2abcd57e7ea3a1482455229494cf2da56ce"]
+keras-applications = ["5579f9a12bcde9748f4a12233925a59b93b73ae6947409ff34aa2ba258189fe5", "df4323692b8c1174af821bf906f1e442e63fa7589bf0f1230a0b6bdc5a810c95"]
+keras-preprocessing = ["44aee5f2c4d80c3b29f208359fcb336df80f293a0bb6b1c738da43ca206656fb", "5a8debe01d840de93d49e05ccf1c9b81ae30e210d34dacbcc47aeb3049b528e5"]
+markdown = ["2e50876bcdd74517e7b71f3e7a76102050edec255b3983403f1a63e7c8a41e7a", "56a46ac655704b91e5b7e6326ce43d5ef72411376588afa1dd90e881b83c7e8c"]
+numpy = ["0778076e764e146d3078b17c24c4d89e0ecd4ac5401beff8e1c87879043a0633", "141c7102f20abe6cf0d54c4ced8d565b86df4d3077ba2343b61a6db996cefec7", "14270a1ee8917d11e7753fb54fc7ffd1934f4d529235beec0b275e2ccf00333b", "27e11c7a8ec9d5838bc59f809bfa86efc8a4fd02e58960fa9c49d998e14332d5", "2a04dda79606f3d2f760384c38ccd3d5b9bb79d4c8126b67aff5eb09a253763e", "3c26010c1b51e1224a3ca6b8df807de6e95128b0908c7e34f190e7775455b0ca", "52c40f1a4262c896420c6ea1c6fda62cf67070e3947e3307f5562bd783a90336", "6e4f8d9e8aa79321657079b9ac03f3cf3fd067bf31c1cca4f56d49543f4356a5", "7242be12a58fec245ee9734e625964b97cf7e3f2f7d016603f9e56660ce479c7", "7dc253b542bfd4b4eb88d9dbae4ca079e7bf2e2afd819ee18891a43db66c60c7", "94f5bd885f67bbb25c82d80184abbf7ce4f6c3c3a41fbaa4182f034bba803e69", "a89e188daa119ffa0d03ce5123dee3f8ffd5115c896c2a9d4f0dbb3d8b95bfa3", "ad3399da9b0ca36e2f24de72f67ab2854a62e623274607e37e0ce5f5d5fa9166", "b0348be89275fd1d4c44ffa39530c41a21062f52299b1e3ee7d1c61f060044b8", "b5554368e4ede1856121b0dfa35ce71768102e4aa55e526cb8de7f374ff78722", "cbddc56b2502d3f87fda4f98d948eb5b11f36ff3902e17cb6cc44727f2200525", "d79f18f41751725c56eceab2a886f021d70fd70a6188fd386e29a045945ffc10", "dc2ca26a19ab32dc475dbad9dfe723d3a64c835f4c23f625c2b6566ca32b9f29", "dd9bcd4f294eb0633bb33d1a74febdd2b9018b8b8ed325f861fffcd2c7660bb8", "e8baab1bc7c9152715844f1faca6744f2416929de10d7639ed49555a85549f52", "ec31fe12668af687b99acf1567399632a7c47b0e17cfb9ae47c098644ef36797", "f12b4f7e2d8f9da3141564e6737d79016fe5336cc92de6814eba579744f65b0a", "f58ac38d5ca045a377b3b377c84df8175ab992c970a53332fa8ac2373df44ff7"]
+protobuf = ["03f43eac9d5b651f976e91cf46a25b75e5779d98f0f4114b0abfed83376d75f8", "0c94b21e6de01362f91a86b372555d22a60b59708599ca9d5032ae9fdf8e3538", "2d2a9f30f61f4063fadd7fb68a2510a6939b43c0d6ceeec5c4704f22225da28e", "34a0b05fca061e4abb77dd180209f68d8637115ff319f51e28a6a9382d69853a", "358710fd0db25372edcf1150fa691f48376a134a6c69ce29f38f185eea7699e6", "3761ab21883f1d3add8643413b326a0026776879b13ecf904e1e05fe18532c03", "41e47198b94c27ba05a08b4a95160656105745c462af574e4bcb0807164065c0", "8c61cc8a76e9d381c665aecc5105fa0f1878cf7db8b5cd17202603bcb386d0fc", "a6eebc4db759e58fdac02efcd3028b811effac881d8a5bad1996e4e8ee6acb47", "a9c12f7c98093da0a46ba76ec40ace725daa1ac4038c41e4b1466afb5c45bb01", "cb95068492ba0859b8c9e61fa8ba206a83c64e5d0916fb4543700b2e2b214115", "cd98476ce7bb4dcd6a7b101f5eecdc073dafea19f311e36eb8fba1a349346277", "ce64cfbea18c535176bdaa10ba740c0fc4c6d998a3f511c17bedb0ae4b3b167c", "dcbb59eac73fd454e8f2c5fba9e3d3320fd4707ed6a9d3ea3717924a6f0903ea", "dd67f34458ae716029e2a71ede998e9092493b62a519236ca52e3c5202096c87", "e3c96056eb5b7284a20e256cb0bf783c8f36ad82a4ae5434a7b7cd02384144a7", "f612d584d7a27e2f39e7b17878430a959c1bc09a74ba09db096b468558e5e126", "f6de8a7d6122297b81566e5bd4df37fd5d62bec14f8f90ebff8ede1c9726cd0a", "fa529d9261682b24c2aaa683667253175c9acebe0a31105394b221090da75832"]
+six = ["3350809f0555b11f552448330d0b52d5f24c91a322ea4a15ef22629740f3761c", "d16a0141ec1a18405cd4ce8b4613101da75da0e9a7aec5bdd4fa804d0e0eba73"]
+tb-nightly = ["29784a5c46253e03f9a7849905f4939c4688d9006e454cdaac2cb2add862c53f", "bc69ec5d15114ac4afb42e3a0e55c5cd9a5a50f93826d06949b576139c9306eb"]
+tensorflow = ["13d0a3cab2c912bdd61a5294ade565dc7d1cac090994d22b058ff5ea7ce2056c", "19589816f7b1451c493ddff03be4dc8b922ba3c9297a6c5ca37342b44a8bedcf", "20f27098a94fc18c51bce48af61477fa669a4012ba4cad8215ffbfce1f210a45", "3eecb1412df267336d4a9c611e65f8dad98f01be7ba9b7ff2b6601b200e166e5", "499834651a261c1fe3b04389ffedd595b01c28935a3d5d29e509724f09a9b9ea", "586c1936e14ffed827744faa0d56800c1c94e18ade6ad157eea43df66046d97c", "6a3859ad31832e60345bbf3a5c206e5785a8412b25665e8042ad239044fb2a43", "772213fc09e2840ca4158babfec8bf17a12d64f07dd2f99ceb00ceb5d6b7bdae", "842a1d19693ab32f6d0e2366410e58e20ef44a0f507867bbceb3ce272b370198", "924b8967e494612b8dd0a47d70057da5155f466a4279d62c34bdf153f81aaea7", "95bb640923aa4b6e8844bb4015f9e4d96c1512d2356c0b5916383896939c79ab", "aeec178281d97265d0992b792a642e4c993edabf5cf44ffafa35b92a51ff86ea", "c915ad88bf48fedb83aab4ebfda56a6b90669011a31dd333f8fdac3929e3fd38", "dfac0742ac5c610ebec84a7a9ae09034a7a1bdb6fb0bc30ed63f691eb980992b", "fc633e08a3a39d5d361449e3697ee480cb0e0a88e3638b2f3fba55422b5ff47f"]
+tensorflow-addons = ["056103100aeafed1fadff35bfa577a3378989367229156f8aee296c0fefe11a1", "3816886bf4f6d1f828506d9f1d3f6b6a80c6cc385865ed215af110da8a6cc6ff", "4db7f60749b442dd60415b35f3b39bae9567450300057f99ad2fdf6fd120e6ff", "5041d3686ef8f2247e6a490fbea751e81809442d797d6aa6fd9714501021d75b", "542e0bd69f1db2f4411df4e9d576a20234567d1f1dfe2b68f2b39bda03a4ccc4", "8a8ce1a5723b018407734bb5625cf3560fca4cf388a872856133eae3e523ebeb", "cb7fe54ac2660d6f34154e3ffe58663513cc5a23c480a037c9b64d143bfb18cf", "f1bbdc3b66ff49dfac85ecbca29381a25d6ba0eb1e5fd50389841e06a3b1e950"]
+termcolor = ["1d6d69ce66211143803fbc56652b41d73b4a400a2891d7bf7a1cdf4c02de613b"]
+tf-estimator-nightly = ["4730dc0315fb1a24573f78ea603b0e3e1dedcf4c2ac327989d07afdead515e3d"]
+werkzeug = ["865856ebb55c4dcd0630cdd8f3331a1847a819dda7e8c750d3db6f2aa6c0209c", "a0b915f0815982fb2a09161cb8f31708052d0951c3ba433ccc5e1aa276507ca6"]
+wheel = ["5e79117472686ac0c4aef5bad5172ea73a1c2d1646b808c35926bd26bdfb0c08", "62fcfa03d45b5b722539ccbc07b190e4bfff4bb9e3a4d470dd9f6a0981002565"]
